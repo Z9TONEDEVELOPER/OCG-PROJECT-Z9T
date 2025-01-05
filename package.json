@@ -1,0 +1,28 @@
+{
+  "name": "ocg_wbm_z9t_chat_bot",
+  "version": "1.0.0",
+  "description": "edit 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.9",
+    "axios-socks5-agent": "^1.0.5",
+    "dotenv": "^16.4.7",
+    "https-proxy-agent": "^7.0.6",
+    "nodemon": "^3.1.9",
+    "ocg_wbm_z9t_chat_bot": "file:",
+    "openai": "^4.77.3",
+    "sharp": "^0.33.5",
+    "socks-proxy-agent": "^8.0.5",
+    "telegraf": "^4.16.3",
+    "telegram-escape": "^1.1.1"
+  }
+}

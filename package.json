@@ -17,12 +17,15 @@
     "axios-socks5-agent": "^1.0.5",
     "dotenv": "^16.4.7",
     "https-proxy-agent": "^7.0.6",
+    "mongoose": "^8.9.3",
     "nodemon": "^3.1.9",
     "ocg_wbm_z9t_chat_bot": "file:",
     "openai": "^4.77.3",
+    "punycode": "^2.3.1",
     "sharp": "^0.33.5",
     "socks-proxy-agent": "^8.0.5",
     "telegraf": "^4.16.3",
+    "telegraf-session-local": "^2.1.1",
     "telegram-escape": "^1.1.1"
   }
 }

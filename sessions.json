@@ -1,0 +1,23 @@
+{
+  "sessions": [
+    {
+      "id": "556348928:556348928",
+      "data": {
+        "__scenes": {
+          "current": "modelSelection",
+          "state": {}
+        },
+        "isSubscribed": true,
+        "generationCounts": {
+          "chatGpt": 4,
+          "stableDiffusion": 2,
+          "dalle": 1,
+          "mistralai": 1,
+          "claude": 1,
+          "gemini": 1
+        },
+        "selectedModel": "chatGpt"
+      }
+    }
+  ]
+}

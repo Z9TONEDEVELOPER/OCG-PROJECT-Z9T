@@ -1,0 +1,14 @@
+{
+  "admins": [
+    556348928
+  ],
+  "maintenanceMode": false,
+  "generationLimits": {
+    "chatGpt": 15,
+    "stableDiffusion": 5,
+    "dalle": 5,
+    "mistralai": 10,
+    "claude": 10,
+    "gemini": 10
+  }
+}

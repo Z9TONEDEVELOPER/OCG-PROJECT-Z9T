@@ -42,7 +42,16 @@ export async function stableDefusion(prompt, ctx) {
                 },
             }
         );
-
+        try {
+            if (!fs.existsSync(imagePath)) {
+                throw new Error('Файл изображения не найден.');
+            }
+            await ctx.replyWithPhoto({ source: fs.createReadStream(imagePath) });
+            ctx.session.generationCounts.stableDiffusion += 1;
+        } catch (error) {
+            console.error('Error generating image:', error);
+            await ctx.reply('Произошла ошибка при генерации изображения. Пожалуйста, попробуйте позже.');
+        }
         // Получаем изображение в формате base64
         const imageBase64 = response.data.artifacts[0].base64;
         const imageBuffer = Buffer.from(imageBase64, 'base64');
